@@ -1,0 +1,36 @@
+{
+  "name": "a-number-guess-game",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u00000\u00001\u0000_\u0000n\u0000u\u0000m\u0000b\u0000e\u0000r\u0000-\u0000g\u0000u\u0000e\u0000s\u0000s\u0000i\u0000n\u0000g\u0000-\u0000g\u0000a\u0000m\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./bin/index.js"
+  },
+  "bin": {
+    "a-number-guess-game": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anamrani0832/p01_number-guessing-game.git"
+  },
+  "author": "anam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anamrani0832/p01_number-guessing-game/issues"
+  },
+  "homepage": "https://github.com/anamrani0832/p01_number-guessing-game#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.17"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  }
+}
